@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Banner</title>
+</head>
+<body>
+  
+    <div class="banner" style="position:absolute; z-index:99999; top:40px; left:40px;">
+   
+        <section id="section-source">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis veniam magni soluta labore est vero minus ex quas enim consequuntur iusto sed, magnam dignissimos exercitationem fuga at, consequatur, possimus sunt!                    
+            </p>
+            <a class="btn-readmore" href="#">Profil</a>
+        </section>
+    
+        <div class="clearbanner" style="cursor:pointer; background: #108ee9 ; width:799px; height:36px; color:#FFF; padding-top: 10px; font-size: 16px; margin-top: -4px; text-align:center; border-top:2px solid #fff; text-transform: uppercase;">clos popup window
+                
+        </div>
+    
+    </div>
+    <script>
+            $(function(){
+      $('.clearbanner').click(function(){
+        $('.banner').hide();
+      });
+    });
+        </script>
+</body>
+</html>
