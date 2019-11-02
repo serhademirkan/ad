@@ -67,7 +67,7 @@ section{
 }
 
 .arabanner{
-    background: url("../3.png");
+    background: url(3.png) no-repeat 50% 50%;
     height: 150px;
     position: fixed;
     bottom: 3rem;
