@@ -67,13 +67,14 @@ section{
 }
 
 .arabanner{
-    background: url(3.png) no-repeat 50% 50%;
+    background: url("../3.png");
     height: 150px;
     position: fixed;
     bottom: 3rem;
-    width: 90%;
-    
-    
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin: 0;
 }
 .arabanner p{
     font-weight: 100;
@@ -109,10 +110,10 @@ section{
 @media(min-width:720px){
   
     .arabanner {
-        width:100%;
+        width:90%;
     }
     .arabanner .arabanner-image img{
-        width: 100%;
+        width: 90%;
     }
 }
 
